@@ -150,12 +150,15 @@ Estou documentando meu trabalho enquanto evoluo como desenvolvedor. Aqui vou des
 
 ---
 
+<!-- Seção Animada do Pac-Man -->
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/github-snake.svg" />
-</picture>
+  <h3>🎮 Pac-Man Eating My Contributions</h3>
+  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/pacman.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/pacman.svg">
+    <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/pacman.svg" width="100%" />
+  </picture>
 </div>
 
 ## 📫 Contact & Connect
