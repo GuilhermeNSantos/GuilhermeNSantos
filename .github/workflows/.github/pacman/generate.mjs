@@ -48,11 +48,11 @@ async function fetchWeeks() {
     );
   }
   if (!USER || !TOKEN) throw new Error("Faltou GH_USER ou GITHUB_TOKEN");
-  const query = query($login:String!){user(login:$login){contributionsCollection{contributionCalendar{weeks{contributionDays{contributionCount weekday}}}}}};
+  const query = `query($login:String!){user(login:$login){contributionsCollection{contributionCalendar{weeks{contributionDays{contributionCount weekday}}}}}}`;
   const res = await fetch("https://api.github.com/graphql", {
     method: "POST",
     headers: {
-      Authorization: bearer ${TOKEN},
+      Authorization: `bearer ${TOKEN}`,
       "Content-Type": "application/json",
       "User-Agent": "pacman-contribution-graph",
     },
@@ -101,8 +101,8 @@ function build(weeks, t) {
       if (level > 0) eaten.push(i);
       const fill = level === 0 ? t.empty : t.levels[level - 1];
       const p = (i / (N - 1)) * MOVE_FRAC * 100;
-      dotCss += @keyframes k${i}{${p.toFixed(3)}%{opacity:1}${(p + 0.01).toFixed(3)}%{opacity:0}98.5%{opacity:0}99.5%{opacity:1}};
-      dots += <circle class="d" style="animation-name:k${i}" cx="${cx(x)}" cy="${cy(y)}" r="${DOT_R[level]}" fill="${fill}"/>;
+      dotCss += `@keyframes k${i}{${p.toFixed(3)}%{opacity:1}${(p + 0.01).toFixed(3)}%{opacity:0}98.5%{opacity:0}99.5%{opacity:1}}`;
+      dots += `<circle class="d" style="animation-name:k${i}" cx="${cx(x)}" cy="${cy(y)}" r="${DOT_R[level]}" fill="${fill}"/>`;
     }
   }
   eaten.sort((a, b) => a - b);
@@ -113,18 +113,18 @@ function build(weeks, t) {
   for (let c = 0; c < cols; c++) {
     const yStart = c % 2 === 0 ? 0 : 6;
     const yEnd = c % 2 === 0 ? 6 : 0;
-    move.set(pct(c * 7), translate(${cx(c)}px,${cy(yStart)}px));
-    move.set(pct(c * 7 + 6), translate(${cx(c)}px,${cy(yEnd)}px));
+    move.set(pct(c * 7), `translate(${cx(c)}px,${cy(yStart)}px)`);
+    move.set(pct(c * 7 + 6), `translate(${cx(c)}px,${cy(yEnd)}px)`);
     rot.set(pct(c * 7), c % 2 === 0 ? 90 : -90);
     if (c < cols - 1) rot.set(pct(c * 7 + 6), 0);
   }
-  const moveKf = [...move].map(([k, v]) => ${k}{transform:${v}}).join("");
-  const rotKf = [...rot].map(([k, v]) => ${k}{transform:rotate(${v}deg)}).join("");
+  const moveKf = [...move].map(([k, v]) => `${k}{transform:${v}}`).join("");
+  const rotKf = [...rot].map(([k, v]) => `${k}{transform:rotate(${v}deg)}`).join("");
 
   // crescimento: um tiquinho a cada bolinha de contribuição comida
   const grow = new Map([["0.000%", 1]]);
   eaten.forEach((i, k) => grow.set(pct(i), 1 + (MAX_GROW * (k + 1)) / eaten.length));
-  const growKf = [...grow].map(([k, v]) => ${k}{transform:scale(${v.toFixed(4)})}).join("");
+  const growKf = [...grow].map(([k, v]) => `${k}{transform:scale(${v.toFixed(4)})}`).join("");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Pac-Man comendo o gráfico de contribuições">
 <defs>
@@ -167,6 +167,6 @@ ${dots}
 const weeks = await fetchWeeks();
 mkdirSync(OUT, { recursive: true });
 for (const [file, theme] of Object.entries(THEMES)) {
-  writeFileSync(${OUT}/${file}, build(weeks, theme));
-  console.log("gerado:", ${OUT}/${file});
+  writeFileSync(`${OUT}/${file}`, build(weeks, theme));
+  console.log("gerado:", `${OUT}/${file}`);
 }
