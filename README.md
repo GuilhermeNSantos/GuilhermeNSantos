@@ -150,6 +150,14 @@ Estou documentando meu trabalho enquanto evoluo como desenvolvedor. Aqui vou des
 
 ---
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/github-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/github-snake.svg" />
+</picture>
+</div>
+
 ## 📫 Contact & Connect
 
 Interessado em **desenvolvimento Python, projetos colaborativos ou oportunidades de estágio**? Fale comigo!
@@ -163,3 +171,6 @@ Interessado em **desenvolvimento Python, projetos colaborativos ou oportunidades
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FFD43B&height=4" width="100%" />
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1f44,50:0f2c57,100:0a1f44&height=90&section=footer" width="100%" />
+
+
+
