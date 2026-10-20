@@ -15,13 +15,20 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Pacman Style SVG
-        uses: Platane/snk/svg-only@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/pacman.svg?color_snake=#FFD700&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
-            dist/pacman-dark.svg?color_snake=#FFD700&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+          node-version: 20
+
+      - name: Generate Pac-Man SVGs
+        run: node .github/pacman/generate.mjs
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          OUT_DIR: dist
 
       - name: Push Pacman SVG to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
