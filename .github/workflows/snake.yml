@@ -24,7 +24,7 @@ jobs:
           node-version: 20
 
       - name: Generate Pac-Man SVGs
-        run: node .github/pacman/generate.mjs
+        run: node .github/workflows/.github/pacman/generate.mjs
         env:
           GH_USER: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
