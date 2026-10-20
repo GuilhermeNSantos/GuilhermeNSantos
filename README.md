@@ -1,17 +1,17 @@
 <div align="center">
 
-<!-- Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:00b4d8&height=260&section=header&text=Guilherme%20Nascimento%20Santos&fontSize=44&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Full%20Stack%20Python%20%7C%20Front-End%20JavaScript&descSize=20&descAlignY=58" width="100%" />
+<!-- Banner Python: azul escuro + amarelo -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1f44,50:1e4f7a,100:306998&height=260&section=header&text=Guilherme%20Nascimento%20Santos&fontSize=44&fontColor=FFD43B&fontAlignY=36&animation=fadeIn&desc=Full%20Stack%20Python%20%7C%20Front-End%20JavaScript&descSize=20&descAlignY=58" width="100%" />
 
 <!-- Texto digitando com as ferramentas -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=800&height=40&lines=Sistemas+de+Informa%C3%A7%C3%A3o+%7C+UFU;Python+%7C+FastAPI+%7C+Django;JavaScript+%7C+TypeScript+%7C+Next.js+%7C+Tailwind;Pytest+%7C+PostgreSQL+%7C+MySQL+%7C+Docker;Construindo+APIs+e+interfaces+modernas;Sempre+aprendendo%2C+sempre+evoluindo" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FFD43B&center=true&vCenter=true&width=800&height=40&lines=Sistemas+de+Informa%C3%A7%C3%A3o+%7C+UFU;Python+%7C+FastAPI+%7C+Django;JavaScript+%7C+TypeScript+%7C+Next.js+%7C+Tailwind;Pytest+%7C+PostgreSQL+%7C+MySQL+%7C+Docker;Construindo+APIs+e+interfaces+modernas;Sempre+aprendendo%2C+sempre+evoluindo" alt="Typing SVG" />
 
 <br />
 
 <!-- Badges de status -->
-<img src="https://img.shields.io/badge/FOCO-FULL_STACK_PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/UFU-SISTEMAS_DE_INFORMA%C3%87%C3%83O-7C3AED?style=for-the-badge&logo=academia&logoColor=white" />
-<img src="https://img.shields.io/badge/STATUS-EM_EVOLU%C3%87%C3%83O-00B4D8?style=for-the-badge&logo=rocket&logoColor=white" />
+<img src="https://img.shields.io/badge/FOCO-FULL_STACK_PYTHON-306998?style=for-the-badge&logo=python&logoColor=FFD43B" />
+<img src="https://img.shields.io/badge/UFU-SISTEMAS_DE_INFORMA%C3%87%C3%83O-0a1f44?style=for-the-badge&logoColor=FFD43B" />
+<img src="https://img.shields.io/badge/STATUS-EM_EVOLU%C3%87%C3%83O-FFD43B?style=for-the-badge&logo=rocket&logoColor=0a1f44&labelColor=0a1f44" />
 
 <br /><br />
 
@@ -134,15 +134,15 @@ Estou documentando meu trabalho enquanto evoluo como desenvolvedor. Aqui vou des
 <table>
   <tr>
     <td align="center">
-      <img width="420" src="https://github-readme-stats.vercel.app/api?username=GuilhermeNSantos&show_icons=true&hide_border=true&count_private=true&card_width=420&bg_color=0d1117&title_color=00f2fe&icon_color=a855f7&text_color=e2e8f0&ring_color=a855f7" />
+      <img width="420" src="https://github-readme-stats.vercel.app/api?username=GuilhermeNSantos&show_icons=true&hide_border=true&count_private=true&card_width=420&bg_color=0a1f44&title_color=FFD43B&icon_color=4B8BBE&text_color=e2e8f0&ring_color=FFD43B" />
     </td>
     <td align="center">
-      <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuilhermeNSantos&layout=compact&hide_border=true&card_width=420&bg_color=0d1117&title_color=00f2fe&text_color=e2e8f0" />
+      <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuilhermeNSantos&layout=compact&hide_border=true&card_width=420&bg_color=0a1f44&title_color=FFD43B&text_color=e2e8f0" />
     </td>
   </tr>
 </table>
 
-<img width="860" src="https://github-readme-streak-stats.herokuapp.com/?user=GuilhermeNSantos&hide_border=true&background=0d1117&ring=a855f7&fire=00f2fe&currStreakNum=ffffff&currStreakLabel=00f2fe&sideNums=ffffff&sideLabels=a0aec0&dates=a0aec0" />
+<img width="860" src="https://github-readme-streak-stats.herokuapp.com/?user=GuilhermeNSantos&hide_border=true&background=0a1f44&ring=FFD43B&fire=FFD43B&currStreakNum=ffffff&currStreakLabel=FFD43B&sideNums=ffffff&sideLabels=4B8BBE&dates=a0aec0" />
 </div>
 
 ---
@@ -158,4 +158,4 @@ Interessado em **desenvolvimento Python, projetos colaborativos ou oportunidades
 
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:00b4d8&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1f44,50:1e4f7a,100:306998&height=120&section=footer" width="100%" />
