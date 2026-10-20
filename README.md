@@ -1,19 +1,23 @@
 <div align="center">
 
-<!-- Banner animado -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,30&height=230&section=header&text=Guilherme%20Nascimento%20Santos&fontSize=40&fontColor=ffffff&animation=twinkling&desc=Full%20Stack%20Python%20%7C%20Front-End%20JavaScript&descSize=18&descAlignY=68" width="100%" />
+<!-- Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:00b4d8&height=260&section=header&text=Guilherme%20Nascimento%20Santos&fontSize=44&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Full%20Stack%20Python%20%7C%20Front-End%20JavaScript&descSize=20&descAlignY=58" width="100%" />
 
-<!-- Texto digitando -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F2FE&center=true&vCenter=true&width=700&lines=Sistemas+de+Informa%C3%A7%C3%A3o+%7C+UFU;Full+Stack+Python+%F0%9F%90%8D;Front-End+com+JavaScript+%7C+Next.js+%7C+Tailwind;APIs+com+FastAPI+e+Django;Sempre+aprendendo%2C+sempre+construindo+%F0%9F%9A%80" alt="Typing SVG" />
+<!-- Texto digitando com as ferramentas -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=800&height=40&lines=Sistemas+de+Informa%C3%A7%C3%A3o+%7C+UFU;Python+%7C+FastAPI+%7C+Django;JavaScript+%7C+TypeScript+%7C+Next.js+%7C+Tailwind;Pytest+%7C+PostgreSQL+%7C+MySQL+%7C+Docker;Construindo+APIs+e+interfaces+modernas;Sempre+aprendendo%2C+sempre+evoluindo" alt="Typing SVG" />
 
 <br />
 
-<img src="https://komarev.com/ghpvc/?username=GuilhermeNSantos&label=Visitas&color=00b4d8&style=for-the-badge" />
+<!-- Badges de status -->
+<img src="https://img.shields.io/badge/FOCO-FULL_STACK_PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/UFU-SISTEMAS_DE_INFORMA%C3%87%C3%83O-7C3AED?style=for-the-badge&logo=academia&logoColor=white" />
+<img src="https://img.shields.io/badge/STATUS-EM_EVOLU%C3%87%C3%83O-00B4D8?style=for-the-badge&logo=rocket&logoColor=white" />
 
 <br /><br />
 
-<a href="https://www.linkedin.com/in/SEU-LINKEDIN/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:SEU-EMAIL@gmail.com"><img src="https://img.shields.io/badge/GMAIL-CONTACT-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<!-- Contatos -->
+<a href="https://www.linkedin.com/in/guilhermenascimentosantos/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:guilhermenascimentosantos35@gmail.com"><img src="https://img.shields.io/badge/GMAIL-CONTACT-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://github.com/GuilhermeNSantos?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-REPOSITORIES-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 </div>
@@ -29,6 +33,7 @@ Meu objetivo é me tornar **Full Stack Developer com Python no back-end** e **Ja
 - 🐍 Apaixonado por **Python**, lógica e resolução de problemas
 - 🌐 Construindo interfaces modernas com **Next.js, TypeScript e Tailwind**
 - ⚡ Desenvolvendo APIs com **FastAPI** e **Django**
+- 🧪 Escrevendo testes com **Pytest** e modelando dados em **PostgreSQL** e **MySQL**
 - 🇺🇸 Estudando inglês todos os dias para uma carreira internacional
 - 📈 Foco em evolução constante: cada projeto é um degrau
 
@@ -96,6 +101,7 @@ Estas tecnologias representam minha **direção técnica e roadmap de aprendizad
 <p>
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -125,26 +131,18 @@ Estou documentando meu trabalho enquanto evoluo como desenvolvedor. Aqui vou des
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=GuilhermeNSantos&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuilhermeNSantos&layout=compact&theme=tokyonight&hide_border=true" />
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img width="420" src="https://github-readme-stats.vercel.app/api?username=GuilhermeNSantos&show_icons=true&hide_border=true&count_private=true&card_width=420&bg_color=0d1117&title_color=00f2fe&icon_color=a855f7&text_color=e2e8f0&ring_color=a855f7" />
+    </td>
+    <td align="center">
+      <img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuilhermeNSantos&layout=compact&hide_border=true&card_width=420&bg_color=0d1117&title_color=00f2fe&text_color=e2e8f0" />
+    </td>
+  </tr>
+</table>
 
-<br />
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=GuilhermeNSantos&theme=tokyonight&hide_border=true" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GuilhermeNSantos&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=GuilhermeNSantos&theme=tokyonight&no-frame=true&row=1&column=7" />
+<img width="860" src="https://github-readme-streak-stats.herokuapp.com/?user=GuilhermeNSantos&hide_border=true&background=0d1117&ring=a855f7&fire=00f2fe&currStreakNum=ffffff&currStreakLabel=00f2fe&sideNums=ffffff&sideLabels=a0aec0&dates=a0aec0" />
 </div>
 
 ---
@@ -160,4 +158,4 @@ Interessado em **desenvolvimento Python, projetos colaborativos ou oportunidades
 
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,30&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:00b4d8&height=120&section=footer" width="100%" />
