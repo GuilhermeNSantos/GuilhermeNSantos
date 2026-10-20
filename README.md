@@ -1,13 +1,13 @@
 <div align="center">
 
 <!-- Banner: azul marinho sólido + título amarelo -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1f44,50:0f2c57,100:0a1f44&height=230&section=header&text=Guilherme%20Nascimento%20Santos&fontSize=44&fontColor=FFD43B&fontAlignY=40&desc=Full%20Stack%20Python%20%7C%20Front-End%20JavaScript&descSize=20&descAlignY=64" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1f44,50:0f2c57,100:0a1f44&height=230&section=header&text=Guilherme%20Nascimento%20Santos&fontSize=44&fontColor=FFD43B&fontAlignY=40&desc=Full-Stack%20Python&descSize=22&descAlignY=64" width="100%" />
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FFD43B&height=4" width="100%" />
 
 <br />
 
 <!-- Texto digitando com as ferramentas -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FFD43B&center=true&vCenter=true&width=800&height=40&lines=Sistemas+de+Informa%C3%A7%C3%A3o+%7C+UFU;Python+%7C+FastAPI+%7C+Django;JavaScript+%7C+TypeScript+%7C+Next.js+%7C+Tailwind;Pytest+%7C+PostgreSQL+%7C+MySQL+%7C+Docker;Construindo+APIs+e+interfaces+modernas;Sempre+aprendendo%2C+sempre+evoluindo" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=800&height=40&lines=Sistemas+de+Informa%C3%A7%C3%A3o+%7C+UFU;Python+%7C+FastAPI+%7C+Django;JavaScript+%7C+TypeScript+%7C+Next.js+%7C+Tailwind;Pytest+%7C+PostgreSQL+%7C+MySQL+%7C+Docker;Construindo+APIs+e+interfaces+modernas;Sempre+aprendendo%2C+sempre+evoluindo" alt="Typing SVG" />
 
 <br />
 
