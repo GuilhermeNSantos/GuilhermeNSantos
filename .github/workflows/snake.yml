@@ -1,12 +1,9 @@
 name: Generate Pacman Graph
 
 on:
-  # Executa a cada 12 horas
   schedule:
     - cron: "0 */12 * * *"
-  # Permite executar manualmente
   workflow_dispatch:
-  # Executa em todo push na main
   push:
     branches:
       - main
@@ -18,16 +15,14 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      # Gera o gráfico de contribuição no estilo Pac-Man Amarelo
-      - name: Generate Pacman SVG
-        uses: jayceagripino/pacman-contribution-graph@main
+      - name: Generate Pacman Style SVG
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: GuilhermeNSantos
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/pacman.svg?color_snake=#FFD700&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
+            dist/pacman-dark.svg?color_snake=#FFD700&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
-      # Publica a imagem gerada na branch 'output'
       - name: Push Pacman SVG to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
