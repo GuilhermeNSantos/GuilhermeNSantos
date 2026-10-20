@@ -150,15 +150,11 @@ Estou documentando meu trabalho enquanto evoluo como desenvolvedor. Aqui vou des
 
 ---
 
-<div align="center">
-  <h3>🎮 Pac-Man Contribution Graph</h3>
-  
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/pacman-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/pacman.svg">
-    <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/pacman.svg" width="100%" />
-  </picture>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/pacman-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/pacman.svg" />
+  <img alt="Pac-Man comendo meus deploys" src="https://raw.githubusercontent.com/GuilhermeNSantos/GuilhermeNSantos/output/pacman.svg" />
+</picture>
 
 
 ## 📫 Contact & Connect
